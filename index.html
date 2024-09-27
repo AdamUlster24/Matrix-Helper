@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matrix Row Operations</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Matrix Row Operations</h1>
+    <div id="timer" class="timer">Time: 0 seconds</div>
+
+    <div class="matrix-input-container">
+      <h3>Enter Your Matrix</h3>
+      <textarea id="matrix-input" rows="5" placeholder="Enter matrix values, separated by spaces or newlines.&#10;e.g.,&#10;2 1 3&#10;4 1 6&#10;1 2 5"></textarea>
+      <button id="set-matrix">Set Matrix</button>
+    </div>
+
+    <div class="matrix-container">
+      <h3>Current Matrix</h3>
+      <table id="matrix"></table>
+    </div>
+
+    <div class="input-section">
+      <label for="operation">Enter Operation (e.g. R1 = R1 + R2):</label>
+      <input type="text" id="operation" placeholder="R1 = R1 + R2">
+    </div>
+
+    <div class="buttons-section">
+      <button id="submit">Submit</button>
+      <button id="reset">Reset</button>
+    </div>
+
+    <div class="operations-list">
+      <h3>Operations Performed:</h3>
+      <ul id="operations-log"></ul>
+    </div>
+
+    <div class="navigation">
+      <button id="undo">Undo Last Operation</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
