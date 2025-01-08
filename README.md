@@ -1,4 +1,4 @@
-This website helps you turn your matrix into RREF by instantaneously performing the row operations that you want to perform.
+This website was made to help simplify the process of transforming a matrix into its reduced row echelon form by instantaneously performing the row operations that you want to perform.
 To use: https://adamulster24.github.io/Matrix-Helper/
 
 **Operations:**<br>
